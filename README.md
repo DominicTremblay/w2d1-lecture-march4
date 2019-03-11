@@ -1,5 +1,7 @@
 # Lecture W2D1
 
+Learn JS > Web
+
 ## History of the Internet
 
 Before the Commercial Internet:
@@ -7,8 +9,10 @@ Before the Commercial Internet:
 - Connect to a host computer with a modem over the phone line
 - Providers: AOL, Compuserv
 
-  - Chat rooms & message boards
-  - Download files (over the phone)
+![AOL](https://i.kym-cdn.com/photos/images/original/000/529/129/f62.jpg)
+
+- Chat rooms & message boards
+- Download files (over the phone)
 
 - BBS - Bulletin Board Systems
   - Message boards
@@ -39,9 +43,21 @@ Before the Web:
 - [First browser wrote by Tim Berners-Lee](https://www.w3.org/History/1994/WWW/Journals/CACM/screensnap2_24c.gif)
 
 - NCSA Mosaic is the browser that made the web popular!
+  [NCSA Mosaic](https://media.wired.com/photos/59344b215321273fc0f91cd1/2:1/w_2500,c_limit/mos-10.jpg)
 - Developed by Marc Andreessen, Jamie Zawinski
 - Developed Netscape Navigator, optimized for 14.4 modems!
 - Microsoft licensed Mosaic to create Internet Explorer in 1995
+
+---
+
+- Lead to a browser war between Internet Explorer and Netscape
+
+> "Guys I'm litterally out of shape like Internet Explorer could probably run faster than me!"
+
+[Internet Explorer Jokes](https://www.ranker.com/list/funny-internet-explorer-meme-jokes-for-tech-nerds/john-barryman?&source=pshare)
+
+---
+
 - In 1998, AOL bought Netscape discontinued support for the Netscape browser in 2008
 - Firefox browser was developed by Mozilla an open source project initiated by Netscape
 
@@ -96,7 +112,7 @@ Languages that computers program use to communicate with one another (usually ov
 | https       | Browse Web page with encrypted communication  |
 | smtp        | Send and receive emails                       |
 | imap, pop 3 | Load emails from an inbox                     |
-| irc         | Text baed chat                                |
+| irc         | Text based chat                               |
 | ftp         | File transfers                                |
 | ssh         | Secure socket shell with encrypted connection |
 | ssl         | low-level secure data transfer used by https  |
@@ -149,10 +165,15 @@ Languages that computers program use to communicate with one another (usually ov
 
 - http requests begin with a verb
 
-1. **`Get`** - get a resource
-2. **`Post`** - send a resource
-3. **`Put`** - Update a resource
-4. **`Delete`** - delete a resource
+Create
+Read
+Upate
+Delete
+
+1. **`Get`** - get a resource (Read)
+2. **`Post`** - send a resource (Create)
+3. **`Put`** - Update a resource (Update)
+4. **`Delete`** - delete a resource (Delete)
 
 - http requests and response both have a _header_ and a _body_
 
